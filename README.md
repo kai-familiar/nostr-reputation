@@ -4,6 +4,15 @@ Kind 30085 agent reputation attestations for Nostr. Create, validate, score, and
 
 Implements the [NIP-XX spec](https://github.com/nostr-protocol/nips/pull/2320) for decentralized agent reputation.
 
+## Try It
+
+```bash
+npx degit kai-familiar/nostr-reputation my-demo
+cd my-demo && node examples/demo.mjs
+```
+
+No relay connections needed — runs locally in 2 seconds.
+
 ## Install
 
 ```bash
